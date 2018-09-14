@@ -24,17 +24,23 @@ Install via Bower:
 
     bower install --save ng-debounce-throttle
 
-    <script src="bower_components/ng-debounce-throttle/ng-debounce-throttle.js"></script>
+```html
+<script src="bower_components/ng-debounce-throttle/ng-debounce-throttle.js"></script>
+ ```
 
 Install via NPM:
 
     npm install --save ng-debounce-throttle
 
-    <script src="node_modules/ng-debounce-throttle/ng-debounce-throttle.js"></script>
+```html
+<script src="node_modules/ng-debounce-throttle/ng-debounce-throttle.js"></script>
+```
 
 Add dependency to your app module:
 
-    angular.module('myApp', ['ngDebounceThrottle']);
+```javascript
+angular.module('myApp', ['ngDebounceThrottle']);
+```
 
 ## Usage
 
@@ -61,7 +67,7 @@ The returned function also has a `cancel()` method, which can be used in case yo
 
 #### Example
 
-```javascipt
+```javascript
 angular.module('myApp').controller('', ['$element', '$debounce', function ($element, $debounce) {
 
     var onMouseMove = $debounce(function () {
