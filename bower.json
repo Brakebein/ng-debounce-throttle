@@ -1,0 +1,25 @@
+{
+  "name": "ng-debounce-throttle",
+  "description": "AngularJS services for debounce and throttle.",
+  "main": "ng-debounce-throttle.js",
+  "authors": [
+    "Brakebein"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "AngularJS",
+    "debounce",
+    "throttle"
+  ],
+  "homepage": "https://github.com/Brakebein/ng-debounce-throttle",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.6"
+  }
+}

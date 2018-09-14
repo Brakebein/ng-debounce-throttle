@@ -1,0 +1,24 @@
+{
+  "name": "ng-debounce-throttle",
+  "version": "1.0.0",
+  "description": "AngularJS services for debounce and throttle.",
+  "main": "ng-debounce-throttle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brakebein/ng-debounce-throttle.git"
+  },
+  "keywords": [
+    "AngularJS",
+    "debounce",
+    "throttle"
+  ],
+  "author": "Brakebein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Brakebein/ng-debounce-throttle/issues"
+  },
+  "homepage": "https://github.com/Brakebein/ng-debounce-throttle#readme"
+}
