@@ -68,11 +68,11 @@ The returned function also has a `cancel()` method, which can be used in case yo
 #### Example
 
 ```javascript
-angular.module('myApp').controller('', ['$element', '$debounce', function ($element, $debounce) {
+angular.module('myApp').controller('myCtrl', ['$element', '$debounce', function ($element, $debounce) {
 
     var onMouseMove = $debounce(function () {
         console.log('Mouse is resting inside element');
-    }, 100, false, false);
+    }, 1000, false, false);
 
     $element.on('mousemove', onMouseMove);
 
